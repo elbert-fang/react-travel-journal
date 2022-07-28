@@ -40,11 +40,8 @@
   display: flex;
   flex-direction: row;
   padding: 2rem 1rem;
-  justify-content: space-between;
-
+  justify-content: center;
 }
-
-
 
 .des-img-wrapper{
   width: 30%;
@@ -81,7 +78,7 @@
   color: gray;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 680px) {
   .des-wrapper {
     flex-direction: column;
   }
