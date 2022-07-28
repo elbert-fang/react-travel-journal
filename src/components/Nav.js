@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <nav className='header'>
             <img src={logo} className="App-logo" width="24" alt="logo"/>
-            my travel journal.
+            Elbert's Travel Journal
         </nav>
     )
 }

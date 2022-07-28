@@ -4,7 +4,7 @@
 
 .App-logo {
   pointer-events: none;
-  margin-right: 4px;
+  margin-right: 6px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,10 +28,68 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F55A5A;
+  background-color: #006D77;
   color: white;
   font-weight: bold;
-  font-size: 14.4608px;
-  line-height: 18px;
-  letter-spacing: -0.075em;
+  font-size: 20px;
+}
+
+.des-wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 1rem;
+  justify-content: space-between;
+
+}
+
+
+
+.des-img-wrapper{
+  width: 30%;
+}
+
+.des-image{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.des-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 70%;
+  padding: 1rem 0;
+  margin-left: 1rem;
+}
+
+.des-location {
+    display: flex;
+    align-items: center;
+}
+
+.des-location p{
+  margin: 0 0.25rem;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+.des-location a{
+  color: gray;
+}
+
+@media only screen and (max-width: 980px) {
+  .des-wrapper {
+    flex-direction: column;
+  }
+
+  .des-img-wrapper,
+  .des-info {
+    width: 100%;
+    margin-left: 0;
+  }
+
 }
